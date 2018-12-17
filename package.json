@@ -9,7 +9,6 @@
     "start": "ng serve",
     "test": "ng test",
     "build": "ng build --prod",
-    "e2e": "ng e2e",
     "ng": "ng",
     "predeploy": "ng build --prod",
     "deploy": "gh-pages -d build"
@@ -54,7 +53,8 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "gh-pages": "^2.0.1"
   },
   "repository": {}
 }
